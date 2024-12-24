@@ -54,7 +54,7 @@ cd task_tracker
 
 Run the program:
 ```bash
-python main.py -help
+python task-cli.py
 ```
 
 
