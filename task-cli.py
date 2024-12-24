@@ -2,7 +2,6 @@ import argparse
 from scripts.commands import procces_task_tracker
 
 if __name__ == "__main__":
-
     parser = argparse.ArgumentParser(description="Task Tracker CLI")
 
     subparsers = parser.add_subparsers(dest='command')
@@ -26,4 +25,5 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     procces_task_tracker(args)
+
 
